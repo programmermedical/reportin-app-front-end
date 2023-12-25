@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  section {
+    min-height: 100vh;
+  }
+  .container {
+    height: 100%;
+    width: 100%;
+  }
+  /*navbar*/
+  .navbar_nav {
+    background-color: #f7f7f7;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 30px;
+  }
+  .navbar_link a{
+    font-weight: 800;
+    padding: 20px;
+  }
+  .brand_logo img{
+    max-width: 40px;
+  }
+
+  .red {
+    background-color: #EE2B47;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+  }
+
+  .red p {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+  }
+  hr {
+    border: 2.5px solid white;
+    width: 220px;
+    margin: auto;
+  }
+
+  .white {
+    background-color: white;
+    height: 100vh;
+
+  }
+.aduan_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 4px 1px;
+  border-radius: 9px;
+  background-color: white;
+  width: 900px;
+  position: absolute;
+  padding: 20px 40px;
+  top: 350px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+form h2 {
+  background-color: #EE2B47;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+form a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.tautan {
+  padding: 8px;
+  border-radius: 8px;
+  border: 2px solid #EE2B47;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.desk {
+  padding: 10px 0px 80px 10px;
+  border-radius: 10px;
+  border: 2px solid #EE2B47;
+  width: 100%;
+}
+
+form p {
+  margin-bottom: 12px;
+}
+
+form .tipe {
+  margin-top: 10px;
+}
+
+.reset {
+background-color: #D9D9D9;
+color: #EE2B47;
+margin-right: 10px;
+}
+
+.report {
+background-color: red;
+color: #FFFFFF;
+}
+
+.report, .reset {
+padding: 10px 40px;
+font-size: 14px;
+font-weight: bold;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+}
+
+.tautan::placeholder, .desk::placeholder, form p, .nop p {
+  opacity: 0.5;
+}
+
+
+
+/*navbar*/
+.navbar_nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 30px;
+}
+.navbar_link a{
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 15px;
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: black;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  /* border: 2px solid #EE2B47; */
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #EE2B47;
+}
+.navbar_link a:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #EE2B47;
+}
+
+.navbar_link a:active {
+  transform: scale(0.9);
+}
+.brand_logo img{
+  max-width: 100px;
+}
+.login {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 15px;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #EE2B47;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #EE2B47;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #EE2B47;
+}
+
+.login:hover {
+  color: white;
+  box-shadow: inset 0 -100px 0 0 #EE2B47;
+}
+
+.login:active {
+  transform: scale(0.9);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 9rem;
+  height: 5rem;
+  background-color: #EE2B47;
+}
+
+

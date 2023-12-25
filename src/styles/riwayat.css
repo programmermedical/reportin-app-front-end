@@ -1,0 +1,49 @@
+.content_riwayat{
+    background-color: #EE2B47;
+    padding: 10px;
+    border: solid 1px ;
+    margin: 10px;
+    border-radius: 10px;
+}
+.card_riwayat {
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    height: 248px;
+    background-color: #ffffff;
+    align-items: center;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .riwayat_img img{
+    flex: 1;
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    border-radius: 20px;
+    align-items: end;
+  }
+
+  .riwayat_detail, .riwayat_title { 
+    flex: 2;
+    padding: 10px;
+    margin-left: 20px;
+  }
+
+  .riwayat_tgl {
+    flex: 1;
+    margin: 20px 30px;
+  }
+
+  .riwayat_heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  .riwayat_heading h3 {
+    font-size: 1.5rem;
+    font-weight: 1000;
+  }

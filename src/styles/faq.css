@@ -1,0 +1,33 @@
+.faq-item {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .faq-question {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .faq-answer {
+    padding: 10px;
+    display: none;
+  }
+  
+  .expand-button {
+    margin-right: 20px;
+    cursor: pointer;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .expand-button.expanded {
+    background-color: #f44336;
+  }
